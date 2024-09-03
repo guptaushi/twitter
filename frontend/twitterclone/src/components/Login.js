@@ -63,7 +63,7 @@ const Login = () => {
         </div>
         <div>
           <div className='my-5'>
-            <h1 className='font-semibold text-6xl'>Happening now.</h1>
+            <h1 className='font-bold text-6xl'>Happening now.</h1>
           </div>
           <h1 className='mt-4 mb-2 text-2xl font-bold'>{isLogin ? "Login" : "Singup"}</h1>
           <form onSubmit={submitHandler} className='flex flex-col w-[55%]'>
